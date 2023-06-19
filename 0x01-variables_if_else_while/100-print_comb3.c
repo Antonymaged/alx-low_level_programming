@@ -36,7 +36,7 @@ while (i < 10)
 putchar(num[c] + '0');
 putchar(num[i] + '0');
 if (c == 8 && i == 9)
-continue;
+break;
 putchar(',');
 putchar(' ');
 i++;
