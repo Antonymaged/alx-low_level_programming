@@ -8,9 +8,28 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+int v = 0;
 int c = 0;
 int i = 0;
 int num[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+while (v < 8)
+{
+if (v == 0)
+c = 1;
+else if (v == 1)
+c = 2;
+else if (v == 2)
+c = 3;
+else if (v == 3)
+c = 4;
+else if (v == 4)
+c = 5;
+else if (v == 5)
+c = 6;
+else if (v == 6)
+c = 7;
+else if (v == 7)
+c = 8;
 while (c < 9)
 {
 if (c == 0)
@@ -42,6 +61,7 @@ putchar(' ');
 i++;
 }
 c++;
+}
 }
 putchar('\n');
 return (0);
