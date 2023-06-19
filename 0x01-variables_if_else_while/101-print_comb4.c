@@ -63,6 +63,7 @@ i++;
 }
 c++;
 }
+v++;
 }
 putchar('\n');
 return (0);
