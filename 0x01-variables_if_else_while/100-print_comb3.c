@@ -14,7 +14,7 @@ int num[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 while (c < 9)
 {
 if (c == 0)
-i = 0;
+i = 1;
 else if (c == 1)
 i = 2;
 else if (c == 2)
