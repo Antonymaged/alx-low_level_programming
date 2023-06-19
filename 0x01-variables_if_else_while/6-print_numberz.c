@@ -9,7 +9,7 @@
 int main(void)
 {
 int c = 0;
-int n[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+char n[] = "0123456789";
 while (c < 10)
 {
 putchar(n[c]);
