@@ -8,13 +8,11 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int v = 0;
-int c = 0;
-int i = 0;
+int v, c, i;
+v = c = i = 0;
 int num[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 while (v < 8)
-{
-if (v == 0)
+{ if (v == 0)
 c = 1;
 else if (v == 1)
 c = 2;
@@ -32,9 +30,7 @@ else if (v == 7)
 c = 8;
 while (c < 9)
 {
-if (c == 0)
-i = 1;
-else if (c == 1)
+if (c == 1)
 i = 2;
 else if (c == 2)
 i = 3;
@@ -59,12 +55,8 @@ if (v == 7 && c == 8 && i == 9)
 break;
 putchar(',');
 putchar(' ');
-i++;
-}
-c++;
-}
-v++;
-}
+i++; }
+c++; }
+v++; }
 putchar('\n');
-return (0);
-}
+return (0); }
