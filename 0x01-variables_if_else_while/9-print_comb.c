@@ -13,6 +13,10 @@ int c = 0;
 while (c < 10)
 {
 putchar(num[c] + '0');
+if (c == 9)
+{
+break;
+}
 putchar(' ');
 putchar(',');
 c++;
