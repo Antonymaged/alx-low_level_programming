@@ -17,8 +17,8 @@ if (c == 9)
 {
 break;
 }
-putchar(' ');
 putchar(',');
+putchar(' ');
 c++;
 }
 putchar('\n');
