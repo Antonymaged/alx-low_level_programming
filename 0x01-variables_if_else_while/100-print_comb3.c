@@ -15,29 +15,27 @@ while (c < 9)
 {
 while (i < 10)
 {
-if (i < 2)
-continue;
-else if (i < 3)
-continue;
-else if (i < 4)
-continue;
-else if (i < 5)
-continue;
-else if (i < 6)
-continue;
-else if (i < 7)
-continue;
-else if (i < 8)
-continue;
-else if (i < 8)
-continue;
+i = 0;
+if (c == 1)
+i = 2;
+else if (c == 2)
+i = 3;
+else if (c == 3)
+i = 4;
+else if (c == 4)
+i = 5;
+else if (c == 5)
+i = 6;
+else if (c == 6)
+i = 7;
+else if (c == 7)
+i = 8;
 else
-{
+i = 9;
 putchar(num[c] + '0');
 putchar(num[i] + '0');
 putchar(',');
 putchar(' ');
-}
 i++;
 }
 c++;
