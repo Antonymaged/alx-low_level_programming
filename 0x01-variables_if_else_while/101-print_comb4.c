@@ -52,9 +52,10 @@ else
 i = 9;
 while (i < 10)
 {
+putchar(num[v] + '0');
 putchar(num[c] + '0');
 putchar(num[i] + '0');
-if (c == 8 && i == 9)
+if (v == 7 && c == 8 && i == 9)
 break;
 putchar(',');
 putchar(' ');
