@@ -8,10 +8,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+int c = 0;
 char alp[] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0 ; i < 26 ; i++)
+while (c < 26)
 {
-putchar(alp[i]);
+putchar(alp[c]);
+c++;
 }
 return (0);
 }
