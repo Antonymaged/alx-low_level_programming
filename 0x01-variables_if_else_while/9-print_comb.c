@@ -8,22 +8,14 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-  int i, j, k;
-  for (i = 0; i < 720; i++)
-  {
-    j = (i / 100) % 10;
-    k = (i / 10) % 10;
-    if (j < k && k < (i % 10))
-    {
-      putchar(j + '0');
-      putchar(k + '0');
-      putchar(i % 10 + '0');
-      if (i < 719)
-      {
-        putchar(" ,");
-      }
-    }
-  }
-  putchar('\n');
-  return (0);
+int num[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int c = 0;
+while (c < 10)
+{
+putchar(num[c] + '0');
+putchar(' ');
+putchar(',');
+c++;
+}
+return (0);
 }
