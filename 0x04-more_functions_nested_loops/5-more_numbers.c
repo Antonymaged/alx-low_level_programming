@@ -12,7 +12,9 @@ while (c < 10)
 {
 for (i = 0; i < 15; i++)
 {
-putchar(i);
+if (j >= 10)
+putchar('1');
+putchar (j % 10 + '0');
 }
 putchar('\n');
 c++;
