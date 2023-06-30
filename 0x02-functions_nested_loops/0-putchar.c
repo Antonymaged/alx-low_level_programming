@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-void putchar (void)
+void putcha (void)
 {
 char *a = "_putchar";
 putchar(*a);
@@ -10,6 +10,6 @@ putchar('\n');
 
 int main (void)
 {
-putchar();
+putcha();
 return (0);
 }

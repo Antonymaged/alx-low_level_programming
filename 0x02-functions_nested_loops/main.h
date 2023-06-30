@@ -1,6 +1,6 @@
 #ifndef MAIN
 #define MAIN
 
-void putchar();
+void putcha();
 
 #endif
