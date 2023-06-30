@@ -7,9 +7,11 @@ char a = 'a';
 while(a <= 'z')
 {
 putchar(a);
+a++;
 }
 putchar('\n');
 }
+
 /**
  * main - check the code
  *
@@ -17,6 +19,6 @@ putchar('\n');
  */
 int main(void)
 {
-    print_alphabet();
-    return (0);
+print_alphabet();
+return (0);
 }
