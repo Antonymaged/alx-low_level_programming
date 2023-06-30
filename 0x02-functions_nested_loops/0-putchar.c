@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-void _putchar()
+void _putchar (void)
 {
-putchar('_putchar');
+char *a = "_putchar";
+putchar(*a);
 putchar('\n');
 }
 
