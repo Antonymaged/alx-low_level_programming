@@ -1,10 +1,6 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
+#include <stdi.h>
+
 void print_alphabet(void)
 {
 char a = 'a';
@@ -14,6 +10,11 @@ putchar(a);
 }
 putchar('\n');
 }
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
     print_alphabet();
