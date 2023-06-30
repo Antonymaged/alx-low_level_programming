@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 
-void putcha (void)
+/*
+ * i hate betty
+ */
+void putcha(void)
 {
 char *a = "_putchar";
 putchar(*a);
 putchar('\n');
 }
 
-int main (void)
+int main(void)
 {
 putcha();
 return (0);
