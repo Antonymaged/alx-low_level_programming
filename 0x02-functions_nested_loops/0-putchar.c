@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * i hate betty
+/**
+ * putcha - i hate betty
  */
 void putcha(void)
 {
@@ -11,6 +11,9 @@ putchar(*a);
 putchar('\n');
 }
 
+/**
+ * main - i hate it soooooo much
+ */
 int main(void)
 {
 putcha();
