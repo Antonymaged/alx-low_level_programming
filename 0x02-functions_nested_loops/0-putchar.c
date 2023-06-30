@@ -12,8 +12,14 @@ putchar('\n');
 }
 
 /**
- * main - i hate it soooooo much
+ * main - Entry point
+ *
+ * Description: This function serves as the entry point for the program.
+ * It takes in command-line arguments executes the main logic of the program.
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 putcha();
