@@ -1,6 +1,7 @@
 #ifndef MAIN
 #define MAIN
-
-void putcha();
+#include <stdio.h>
+void putcha(void);
+void print_alphabet(void);
 
 #endif
