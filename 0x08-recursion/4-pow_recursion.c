@@ -16,10 +16,10 @@ return (-1);
 }
 else if (y == 1)
 {
-return (x);
+return (1);
 }
 else
 {
-x = x *_pow_recursion(x, y - 1);
+return (x = x *_pow_recursion(x, y - 1));
 }
 }
