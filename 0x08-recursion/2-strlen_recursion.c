@@ -15,7 +15,5 @@ int x = 0;
 x++;
 }
 else
-{
 _strlen_recursion(s + 1);
-}
 }
