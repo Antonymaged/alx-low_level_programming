@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
+/*
  * malloc_checked - assign number of bytes into a variable
  * @b : the nuber of bytes
  * Return: Always 0.
@@ -15,5 +15,5 @@ if (p == NULL)
 {
 exit(98);
 }
-return (0);
+return (p);
 }
