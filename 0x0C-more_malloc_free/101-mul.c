@@ -1,7 +1,18 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 #define ERR_MSG "Error"
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
