@@ -41,7 +41,7 @@ while (count < argc)
 {
 if (check_num(argv[count]))
 {
-str_to_int = atoi(argv[count]); 
+str_to_int = atoi(argv[count]);
 sum += str_to_int;
 }
 else
@@ -51,6 +51,6 @@ return (1);
 }
 count++;
 }
-printf("%d\n", sum); /*print sum*/
+printf("%d\n", sum);
 return (0);
 }
