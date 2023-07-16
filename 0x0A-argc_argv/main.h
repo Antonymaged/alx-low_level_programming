@@ -2,6 +2,6 @@
 #define MAIN_H
 #include <stdlib.h>
 
-int main(int (void) argc, char *argv[]);
+int main(int argc __attribute__((unused)), char *argv[]);
 
 #endif
