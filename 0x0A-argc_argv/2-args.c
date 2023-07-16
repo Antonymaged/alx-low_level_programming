@@ -9,7 +9,7 @@
 int main(int argc __attribute__((unused)), char *argv[])
 {
 int x;
-for(x = 0; x < argc; x++)
+for (x = 0; x < argc; x++)
 {
 printf("%s\n", argv[x]);
 }
