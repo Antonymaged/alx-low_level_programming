@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
-
+#include <string.h>
 char *_strdup(char *str)
 {
 if (str == NULL)
