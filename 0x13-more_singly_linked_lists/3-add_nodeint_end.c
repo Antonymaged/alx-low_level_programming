@@ -25,7 +25,8 @@ return (new);
 }
 while (temp->next)
 {
-temp->next = new;
+temp = temp->next;
 }
+temp->next = new;
 return (new);
 }
