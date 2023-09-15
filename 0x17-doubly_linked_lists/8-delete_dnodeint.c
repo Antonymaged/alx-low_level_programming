@@ -29,7 +29,7 @@ if (*head != NULL)
 }
 else
 {
-2->next = p1->next;
+p2->next = p1->next;
 if (p1->next != NULL)
 p1->next->prev = p2;
 }
