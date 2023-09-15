@@ -13,7 +13,7 @@ dlistint_t *t;
 s = 0;
 if (head == NULL)
 return (NULL);
-tmp = head;
+t = head;
 while (t)
 {
 if (index == s)
